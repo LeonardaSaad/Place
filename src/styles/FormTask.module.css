@@ -1,0 +1,27 @@
+.container {
+   width: 100%;
+   margin: 10em 0 0 0;
+}
+
+.text {
+   width: 10vw;
+   height: 2vh;
+}
+
+input[type="text"] {
+   margin: 0;
+   padding: 1em;
+   color: white;
+   background: transparent;
+   border: none;
+   border-bottom: 3px solid #6439BF;
+   outline-color: #6439BF;
+   font-size: 16px;
+}
+
+input[type="text"]:focus {
+   border: none;
+   border-bottom: 3px solid #6439BF;
+
+   outline: none;
+}
